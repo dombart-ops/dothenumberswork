@@ -1,0 +1,17 @@
+{
+  "name": "dothenumberswork",
+  "version": "1.0.0",
+  "description": "Real estate deal analyzer - 23 methodologies in one click",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node tests/analyzer-tests.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^14.0.0",
+    "better-sqlite3": "^9.0.0",
+    "cors": "^2.8.5"
+  }
+}
