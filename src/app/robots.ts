@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
+        disallow: ["/results/", "/api/"],
       },
     ],
     sitemap: "https://dothenumberswork.com/sitemap.xml",

@@ -30,14 +30,14 @@ export default function SiteHeader() {
             </Link>
           ))}
           <Link
-            href="/#analyze"
+            href="/analyze"
             className="inline-flex items-center gap-2 bg-navy text-ivory px-4 py-2 font-mono uppercase text-[0.72rem] tracking-ultra-wide hover:bg-ink transition-colors"
           >
             Analyze a deal
           </Link>
         </nav>
         <Link
-          href="/#analyze"
+          href="/analyze"
           className="md:hidden inline-flex items-center bg-navy text-ivory px-3 py-1.5 font-mono uppercase text-[0.68rem] tracking-ultra-wide"
         >
           Analyze

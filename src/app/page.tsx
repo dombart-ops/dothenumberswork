@@ -32,17 +32,17 @@ export default function HomePage() {
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Link
                 id="analyze"
-                href="/sample-report"
+                href="/analyze"
                 className="inline-flex items-center gap-3 bg-navy text-ivory px-6 py-3.5 font-mono uppercase text-[0.78rem] tracking-ultra-wide hover:bg-ink transition-colors"
               >
-                See a sample report
+                Analyze a deal
                 <span aria-hidden>→</span>
               </Link>
               <Link
-                href="/methodology"
+                href="/sample-report"
                 className="inline-flex items-center gap-3 border border-ink-200 text-ink px-6 py-3.5 font-mono uppercase text-[0.78rem] tracking-ultra-wide hover:border-ink hover:bg-ivory-200 transition-colors"
               >
-                Read the methodology
+                See a sample report
               </Link>
             </div>
             <p className="mt-6 text-[0.85rem] text-ink-400">
